@@ -6,8 +6,12 @@ fun main() {
     25m/s^2. Find the time it will take to move a distance of 5km
     acceleration = speed/time, speed = distance/time
      */
-    var finalSpeed = 1000
-    var initialSpeed = 0
-    var acceleration = 25
+    var speed = 1000
 
+    var acceleration = 25
+//    Distance in m
+    var distance = 5 * 1000
+
+    val time = distance/speed
+    println(time)
 }
